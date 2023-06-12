@@ -1,0 +1,96 @@
+body {
+    font-family: 'Benguiat Bold', arial;
+    margin:10px;
+    padding:0;
+}
+
+/* Header Styles */
+
+.navbar {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #02343F;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .logo {
+    height:100px;
+    margin-left: 75px;
+    mix-blend-mode: color-burn;
+    }
+
+    .product-details{
+      align-items: end;
+    }
+
+/* Section Styles */
+
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  font-size:2rem;
+  margin-bottom: 1rem;
+}
+
+section img {
+    width: 100%;  
+    height: auto;  
+    margin: 1rem;
+}
+
+.card img{
+height: 13rem;
+width: 13rem;
+}
+
+aside{
+  background-color: #02343F;
+}
+
+/*Total */
+.Total-content{
+  display: flex;
+  align-content: center;
+} 
+
+/* Footer Styles */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer-logo {
+  grid-column: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-terms {
+  grid-column: 2;
+}
+
+.footer-form {
+  grid-column: 3;
+}
+
+
+.footer-logo img {
+  max-width: 100px;
+  align-items: center;
+  justify-content: end;
+}
+
+.footer-form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
